@@ -1,21 +1,23 @@
 #Задача 1
-from itertools import count
-
-a = 200
-b = 335
-if a > b:
-    print(a)
-else:
-    print(b)
+def larger_number():
+    a = 20
+    b = 30
+    if a > b:
+        print(a)
+    else:
+        print(b)
+larger_number()
 
 
 #Задача 2
-a = 200
-b = 335
-if a + 135 == b:
-    print('Yes')
-else:
-    print('No')
+def diff_numbers():
+    a = 335
+    b = 200
+    if a - b == 135:
+        print('Yes')
+    else:
+        print('No')
+diff_numbers()
 
 
 #Задача 3
@@ -51,9 +53,11 @@ print(len(list(filter(numbers2, a))))
 
 
 #Задача 6
-def days(day):
-    year = int(day.year)
-    month = int(day.month)
+def days(year:int, month:int):
+    return year * 12 * 29 + month * 29
+print(days(39, 19))
+
+
 
 
 
