@@ -1,23 +1,19 @@
 #Задача 1
-def larger_number():
-    a = 20
-    b = 30
+def larger_number(a:int, b:int):
     if a > b:
         print(a)
     else:
         print(b)
-larger_number()
+larger_number(3,6)
 
 
 #Задача 2
-def diff_numbers():
-    a = 335
-    b = 200
+def diff_numbers(a:int, b:int):
     if a - b == 135:
         print('Yes')
     else:
         print('No')
-diff_numbers()
+diff_numbers(335,201)
 
 
 #Задача 3
