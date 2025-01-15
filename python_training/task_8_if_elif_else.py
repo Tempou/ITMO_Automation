@@ -64,4 +64,4 @@ def number(number_100):
         print('-')
     else:
         print('+')
-number(101)
+number(-100)
