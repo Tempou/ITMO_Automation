@@ -12,19 +12,19 @@ class Car:
     def stop(self):
         return print('Автомобиль заглушен')
 
-    def year_of_car(self):
+    def year_car(self):
         return print('Год автомобиля - {}'.format(self.year))
 
-    def type_of_car(self):
+    def type_car(self):
         return print('Тип автомобиля - {}'.format(self.type))
 
-    def color_of_car(self):
+    def color_car(self):
         return print('Цвет автомобиля - {}'.format(self.color))
 
 
 car_1 = Car('Розовый', 'Внедорожник', '2019')
 car_1.start()
 car_1.stop()
-car_1.year_of_car()
-car_1.type_of_car()
-car_1.color_of_car()
+car_1.year_car()
+car_1.type_car()
+car_1.color_car()
