@@ -21,6 +21,7 @@ class Car:
     def color_of_car(self):
         return print('Цвет автомобиля - {}'.format(self.color))
 
+
 car_1 = Car('Розовый', 'Внедорожник', '2019')
 car_1.start()
 car_1.stop()
