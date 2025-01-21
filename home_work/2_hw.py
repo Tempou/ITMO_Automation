@@ -1,6 +1,6 @@
 #Задача 1
 def task_1(a: int='3', b: float = '10.1', c: str='Имя', d: list = [1,5,6,4,3], e: bool=True ) :
-    return a,b,c,d,e
+    return type(a),type(b),type(c),type(d),type(e)
 print(task_1(), '\n')
 
 
